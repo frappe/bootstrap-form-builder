@@ -145,6 +145,7 @@
 				$edit_btn.appendTo($el);
 			}
 			$modal.modal("hide");
+			return false;
 		})
 	});
 	
@@ -214,7 +215,7 @@
 			<div class="col-md-9" style="padding: 30px;">
 				<div style="background-color: #fff; border-radius: 5px; padding: 20px; 
 						box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); ">
-					<div class="text-muted empty-form text-center">Drag elements to build form.</div>
+					<div class="text-muted empty-form text-center" style="font-size: 24px;">Drag & Drop elements to build form.</div>
 					<div class="row form-body">
 						<div class="col-md-12 droppable sortable">
 						</div>
