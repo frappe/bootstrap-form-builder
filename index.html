@@ -47,7 +47,12 @@
 			var html = html_beautify($copy.html());
 			$copy.remove();
 
-			get_modal(html).modal("show").find(":input:first").select().focus();
+			$modal = get_modal(html).modal("show");
+			$modal.find(".btn").remove();
+			$modal.find(".modal-title").html("Copy HTML");
+			$modal.find(":input:first").select().focus();
+			
+			return false;
 		})
 		
 		
