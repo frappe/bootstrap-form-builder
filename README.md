@@ -6,7 +6,7 @@
 
 ### Use It Now:
 
-[http://webnotes.github.io/bootstrap-form-builder/](http://webnotes.github.io/bootstrap-form-builder/)
+[http://frappe.github.io/bootstrap-form-builder/](http://frappe.github.io/bootstrap-form-builder/)
 
 ### License
 
